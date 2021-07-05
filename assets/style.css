@@ -35,6 +35,7 @@ body {
   }
   
   .time-block {
+    font-weight: bolder;
     text-align: center;
     border-radius: 15px;
   }
@@ -86,11 +87,7 @@ body {
   @media screen and (max-width: 768px), screen and (max-width: 575px) { 
     .row {
       height: auto;
-      margin-top: 15px;
-    }
-
-    .hour {
-      padding-right: 18%;
+      margin-top: 10px;
     }
 
     .saveBtn {
@@ -105,7 +102,6 @@ body {
     }
 
     i {
-      font-size: 15px;
-      padding-right: 5px;
+      font-size: 30px;
     }
   }
