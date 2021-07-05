@@ -71,7 +71,7 @@ body {
   }
   
   .saveBtn {
-    font-size: 30px;
+    font-size: 25px;
     border-left: 1px solid #04116bad;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -84,6 +84,11 @@ body {
     color: #000000;
     font-size: 40px;
     transition: all 0.3s ease-in-out;
+  }
+
+  .saveBtn:hover {
+    color: #000000;
+    background-color: rgb(201, 37, 146);
   }
   
   @media screen and (max-width: 768px), screen and (max-width: 575px) { 
