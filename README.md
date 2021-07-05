@@ -32,6 +32,8 @@ Description of project: Create a simple calendar application that allows a user 
 
 * [Event Listeners MDN](https://developer.mozilla.org/en-US/docs/web/api/eventlistener)
 
+* [Bootstrap Docs](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+
 * [Moment Docs](https://momentjs.com/docs/)
 
 * [jQuery Docs](https://api.jquery.com/)
