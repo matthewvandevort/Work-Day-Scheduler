@@ -42,4 +42,4 @@ Description of project: Create a simple calendar application that allows a user 
 
 # Sources
 
-* Thanks to my Instructor Dan Gross and TA's Anrdrew H. and Ross K.
+* Thanks to my Instructor Dan Gross and TA's Andrew H. and Ross K.
