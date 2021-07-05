@@ -8,9 +8,9 @@ function updateTime() {
 setInterval(updateTime, 1000);
 updateTime();
 
-// Button event listener.
+// Button event listener using .ready() method which runs the JavaScript as soon as the page's DOM is safe to interact with.
 $(document).ready(function () {
-
+    // Listening for the 'click'.
     $('.saveBtn').on('click', function () {
 
         // This gets the values of the description box.
