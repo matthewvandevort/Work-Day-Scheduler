@@ -7,14 +7,15 @@ var hr2 = $('#14');
 var hr3 = $('#15');
 var hr4 = $('#16');
 var hr5 = $('#17');
-var timeOfDay = moment();
 
 
-function startSchedule() {
-    $('#currentDay').text(moment().format('dddd, MMMM Do YYYY hh:mm:ss a'));
-    setInterval(startSchedule(), 1000);
 
 
+function updateTime() {
+    var now = moment();
+    $('#currentDay').text(now.format('dddd, MMMM Do, YYYY hh:mm:ss a'));
+
+    
 }
-
-startSchedule();
+setInterval(updateTime, 1000);
+updateTime();
