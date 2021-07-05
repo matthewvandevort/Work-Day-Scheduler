@@ -1,13 +1,3 @@
-var hr9 = $('#9');
-var hr10 = $('#10');
-var hr11 = $('#11');
-var hr12 = $('#12');
-var hr1 = $('#13');
-var hr2 = $('#14');
-var hr3 = $('#15');
-var hr4 = $('#16');
-var hr5 = $('#17');
-
 
 function updateTime() {
     var now = moment();
@@ -33,12 +23,12 @@ $(document).ready(function () {
         var currentTime = moment().hour();
 
 
-        $('time-block').each(function () {
+        $('.time-block').each(function () {
             var hourBox = parseInt($(this).attr('id').split('hour')[1]);
 
             if (hourBox < currentTime) {
-                $(this).removeClass('future');
                 $(this).removeClass('present');
+                $(this).removeClass('future');
                 $(this).addClass('past');
             }
             else if (hourBox === currentTime) {
@@ -53,6 +43,18 @@ $(document).ready(function () {
                 
             }     
         })    
-    }   
+    } 
+    
+
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
+    $("#hour12 .description").val(localStorage.getItem("hour12"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
+    $("#hour15 .description").val(localStorage.getItem("hour15"));
+    $("#hour16 .description").val(localStorage.getItem("hour16"));
+    $("#hour17 .description").val(localStorage.getItem("hour17"));
+
     getTime();
 })    
