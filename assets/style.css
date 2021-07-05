@@ -1,4 +1,6 @@
 body {
+    background: url(./officebackground.jpg);
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -15,12 +17,13 @@ body {
 
   .lead {
     font-size: 2rem;
+    font-weight: bolder;
   }
 
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: #04116bad;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -48,17 +51,17 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #d3d3d3a3;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #ff6961a3;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #77dd77a3;
     color: white;
   }
   
