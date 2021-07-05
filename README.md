@@ -20,7 +20,7 @@ Description of project: Create a simple calendar application that allows a user 
 
 # Screenshot
 
-![Workday Planner](assets\Workday_Planner.jpeg)
+![Workday Planner](assets/Workday_Planner.jpeg)
 
 # Link to Deployed Project
 
